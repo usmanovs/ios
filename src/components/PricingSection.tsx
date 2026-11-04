@@ -16,7 +16,7 @@ const PricingSection = () => {
 
   const recordingsValue = [
     { label: 'plan.rec.v1', value: '$400' },
-    { label: 'plan.rec.v2', value: '$150' },
+    { label: 'plan.rec.v2', value: '$50' },
   ];
   const liveValue = [
     { label: 'plan.live.v1', value: '$494' },
