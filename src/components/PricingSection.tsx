@@ -43,7 +43,7 @@ const PricingSection = () => {
             <p className="text-sm text-foreground/50 leading-relaxed mb-8">{t('plan.rec.desc')}</p>
 
             <div className="flex items-baseline gap-3 mb-1">
-              <span className="font-display text-5xl font-bold text-foreground">$299</span>
+              <span className="font-display text-5xl font-bold text-foreground">$200</span>
               <span className="text-foreground/30 line-through text-lg">$550</span>
             </div>
             <p className="text-xs text-foreground/40 mb-8">{t('plan.oneTime')}</p>
@@ -77,7 +77,7 @@ const PricingSection = () => {
 
             <button
               type="button"
-              onClick={() => setCheckout({ priceId: 'ios_course_recorded_onetime', title: `${t('plan.rec.title')} — $299` })}
+              onClick={() => setCheckout({ priceId: 'ios_course_recorded_onetime', title: `${t('plan.rec.title')} — $200` })}
               className="flex items-center justify-center gap-3 w-full py-4 rounded-2xl bg-gradient-to-r from-primary to-accent text-primary-foreground font-bold tracking-tight transition-all hover:brightness-110 hover:scale-[1.02] active:scale-[0.98] mb-8"
               style={{ boxShadow: 'var(--shadow-glow-violet)' }}
             >
@@ -100,11 +100,11 @@ const PricingSection = () => {
               </div>
               <div className="flex justify-between items-center bg-primary/10 border border-primary/20 rounded-xl px-4 py-3">
                 <span className="text-sm text-primary/80 font-semibold">{t('plan.youPay')}</span>
-                <span className="text-xl text-primary font-black">$299</span>
+                <span className="text-xl text-primary font-black">$200</span>
               </div>
               <div className="flex justify-between items-center px-4">
                 <span className="text-xs text-accent/60">{t('plan.savings')}</span>
-                <span className="text-sm text-accent font-bold bg-accent/10 px-2 py-0.5 rounded">46%</span>
+                <span className="text-sm text-accent font-bold bg-accent/10 px-2 py-0.5 rounded">64%</span>
               </div>
             </div>
 

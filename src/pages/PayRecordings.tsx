@@ -12,7 +12,7 @@ const PayRecordings = () => {
         <Link to="/" className="font-display font-bold text-foreground text-lg">
           iOS Vibe Coding
         </Link>
-        <span className="text-xs uppercase tracking-widest text-foreground/40">Только Записи — $299</span>
+        <span className="text-xs uppercase tracking-widest text-foreground/40">Только Записи — $200</span>
       </header>
 
       <main className="flex-1 px-6 pb-16">
@@ -22,7 +22,7 @@ const PayRecordings = () => {
               Оплата курса «Только Записи»
             </h1>
             <p className="text-sm text-foreground/50">
-              Единоразовый платеж $299 · полный доступ ко всем записям уроков
+              Единоразовый платеж $200 · полный доступ ко всем записям уроков
             </p>
           </div>
 
