@@ -44,7 +44,7 @@ const PricingSection = () => {
 
             <div className="flex items-baseline gap-3 mb-1">
               <span className="font-display text-5xl font-bold text-foreground">$200</span>
-              <span className="text-foreground/30 line-through text-lg">$550</span>
+              <span className="text-foreground/30 line-through text-lg">$450</span>
             </div>
             <p className="text-xs text-foreground/40 mb-8">{t('plan.oneTime')}</p>
 
@@ -96,7 +96,7 @@ const PricingSection = () => {
               <div className="h-px bg-foreground/10" />
               <div className="flex justify-between items-center">
                 <span className="text-sm text-foreground/60 font-medium">{t('plan.totalValue')}</span>
-                <span className="text-lg text-foreground font-bold">$550</span>
+                <span className="text-lg text-foreground font-bold">$450</span>
               </div>
               <div className="flex justify-between items-center bg-primary/10 border border-primary/20 rounded-xl px-4 py-3">
                 <span className="text-sm text-primary/80 font-semibold">{t('plan.youPay')}</span>
@@ -104,7 +104,7 @@ const PricingSection = () => {
               </div>
               <div className="flex justify-between items-center px-4">
                 <span className="text-xs text-accent/60">{t('plan.savings')}</span>
-                <span className="text-sm text-accent font-bold bg-accent/10 px-2 py-0.5 rounded">64%</span>
+                <span className="text-sm text-accent font-bold bg-accent/10 px-2 py-0.5 rounded">56%</span>
               </div>
             </div>
 
