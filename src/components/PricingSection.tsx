@@ -137,7 +137,7 @@ const PricingSection = () => {
 
             <div className="flex items-baseline gap-3 mb-1">
               <span className="font-display text-5xl font-bold text-foreground">$349</span>
-              <span className="text-foreground/30 line-through text-lg">$550</span>
+              <span className="text-foreground/30 line-through text-lg">$1,194</span>
             </div>
             <p className="text-xs text-foreground/40 mb-8">{t('plan.oneTime')}</p>
 
@@ -197,7 +197,7 @@ const PricingSection = () => {
               </div>
               <div className="flex justify-between items-center px-4">
                 <span className="text-xs text-accent/60">{t('plan.savings')}</span>
-                <span className="text-sm text-accent font-bold bg-accent/10 px-2 py-0.5 rounded">37%</span>
+                <span className="text-sm text-accent font-bold bg-accent/10 px-2 py-0.5 rounded">71%</span>
               </div>
             </div>
 
