@@ -277,6 +277,191 @@ export type Database = {
           },
         ]
       }
+      recording_lesson_progress: {
+        Row: {
+          completed: boolean
+          completed_at: string | null
+          created_at: string
+          id: string
+          lesson_id: string
+          updated_at: string
+          user_id: string
+        }
+        Insert: {
+          completed?: boolean
+          completed_at?: string | null
+          created_at?: string
+          id?: string
+          lesson_id: string
+          updated_at?: string
+          user_id: string
+        }
+        Update: {
+          completed?: boolean
+          completed_at?: string | null
+          created_at?: string
+          id?: string
+          lesson_id?: string
+          updated_at?: string
+          user_id?: string
+        }
+        Relationships: [
+          {
+            foreignKeyName: "recording_lesson_progress_lesson_id_fkey"
+            columns: ["lesson_id"]
+            isOneToOne: false
+            referencedRelation: "recording_lessons"
+            referencedColumns: ["id"]
+          },
+        ]
+      }
+      recording_lesson_videos: {
+        Row: {
+          created_at: string
+          drive_url: string
+          id: string
+          lesson_id: string
+          part_label: string
+          position: number
+          title: string
+          updated_at: string
+        }
+        Insert: {
+          created_at?: string
+          drive_url?: string
+          id?: string
+          lesson_id: string
+          part_label?: string
+          position?: number
+          title?: string
+          updated_at?: string
+        }
+        Update: {
+          created_at?: string
+          drive_url?: string
+          id?: string
+          lesson_id?: string
+          part_label?: string
+          position?: number
+          title?: string
+          updated_at?: string
+        }
+        Relationships: [
+          {
+            foreignKeyName: "recording_lesson_videos_lesson_id_fkey"
+            columns: ["lesson_id"]
+            isOneToOne: false
+            referencedRelation: "recording_lessons"
+            referencedColumns: ["id"]
+          },
+        ]
+      }
+      recording_lessons: {
+        Row: {
+          created_at: string
+          description: string
+          homework_md: string
+          id: string
+          lesson_number: number
+          title: string
+          updated_at: string
+        }
+        Insert: {
+          created_at?: string
+          description?: string
+          homework_md?: string
+          id?: string
+          lesson_number: number
+          title?: string
+          updated_at?: string
+        }
+        Update: {
+          created_at?: string
+          description?: string
+          homework_md?: string
+          id?: string
+          lesson_number?: number
+          title?: string
+          updated_at?: string
+        }
+        Relationships: []
+      }
+      recording_topic_progress: {
+        Row: {
+          completed: boolean
+          completed_at: string | null
+          created_at: string
+          id: string
+          status: string | null
+          topic_id: string
+          updated_at: string
+          user_id: string
+        }
+        Insert: {
+          completed?: boolean
+          completed_at?: string | null
+          created_at?: string
+          id?: string
+          status?: string | null
+          topic_id: string
+          updated_at?: string
+          user_id: string
+        }
+        Update: {
+          completed?: boolean
+          completed_at?: string | null
+          created_at?: string
+          id?: string
+          status?: string | null
+          topic_id?: string
+          updated_at?: string
+          user_id?: string
+        }
+        Relationships: [
+          {
+            foreignKeyName: "recording_topic_progress_topic_id_fkey"
+            columns: ["topic_id"]
+            isOneToOne: false
+            referencedRelation: "recording_topics"
+            referencedColumns: ["id"]
+          },
+        ]
+      }
+      recording_topics: {
+        Row: {
+          created_at: string
+          id: string
+          lesson_id: string
+          position: number
+          title: string
+          updated_at: string
+        }
+        Insert: {
+          created_at?: string
+          id?: string
+          lesson_id: string
+          position?: number
+          title: string
+          updated_at?: string
+        }
+        Update: {
+          created_at?: string
+          id?: string
+          lesson_id?: string
+          position?: number
+          title?: string
+          updated_at?: string
+        }
+        Relationships: [
+          {
+            foreignKeyName: "recording_topics_lesson_id_fkey"
+            columns: ["lesson_id"]
+            isOneToOne: false
+            referencedRelation: "recording_lessons"
+            referencedColumns: ["id"]
+          },
+        ]
+      }
       retro_items: {
         Row: {
           author: string | null
