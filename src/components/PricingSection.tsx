@@ -59,7 +59,7 @@ const PricingSection = () => {
             </div>
 
             <a
-              href="https://wa.me/12402550596"
+              href="https://wa.me/996771002840"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center justify-center gap-2 w-full py-4 rounded-2xl bg-accent text-accent-foreground font-bold tracking-tight transition-all hover:brightness-110 hover:scale-[1.02] active:scale-[0.98] mb-3"
@@ -152,7 +152,7 @@ const PricingSection = () => {
             </div>
 
             <a
-              href="https://wa.me/12402550596"
+              href="https://wa.me/996771002840"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center justify-center gap-2 w-full py-4 rounded-2xl bg-accent text-accent-foreground font-bold tracking-tight transition-all hover:brightness-110 hover:scale-[1.02] active:scale-[0.98] mb-3"

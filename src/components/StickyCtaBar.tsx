@@ -20,7 +20,7 @@ const StickyCtaBar = () => {
           </div>
         </div>
         <a
-          href="https://wa.me/12402550596"
+          href="https://wa.me/996771002840"
           target="_blank"
           rel="noopener noreferrer"
           className="inline-flex px-6 py-2.5 text-sm font-bold rounded-xl text-primary-foreground transition-all hover:scale-105 sm:ml-auto"
