@@ -1,5 +1,5 @@
 const WhatsAppWidget = () => {
-  const phone = '996771002840';
+  const phone = '996700264555';
   const message = encodeURIComponent(
     'Здравствуйте! Я заинтересован в курсе по iOS-разработке. Расскажите, пожалуйста, подробнее.'
   );

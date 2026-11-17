@@ -38,7 +38,7 @@ const CheckoutReturn = () => {
             На главную
           </Link>
           <a
-            href="https://wa.me/996771002840"
+            href="https://wa.me/996700264555"
             target="_blank"
             rel="noopener noreferrer"
             className="px-6 py-3 rounded-2xl border border-foreground/10 text-sm font-bold text-foreground/80"
